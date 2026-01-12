@@ -1,7 +1,7 @@
 ### Step-1 : Setup Linux VM (Amazon Linux AMI)
 
-Login into AWS Cloud account -> Launch Linux VM using EC2 service
-AMI : Amazon Linux -> Instance Type : t2.medium
+Login into AWS Cloud account -> Launch Linux VM using EC2 service ->
+AMI : Amazon Linux -> Instance Type : t2.medium ->
 Connect to VM using Gitbash
 
 ## Step-2 : Install Docker In Linux VM
@@ -16,7 +16,9 @@ exit
 
 ## Step-3 : Make SSH connection again and Verify docker installation
 
-`docker -v`
+```
+docker -v
+```
 
 ## Step-4 : Run SonarQube using docker image
 
